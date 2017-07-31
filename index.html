@@ -395,7 +395,7 @@ a:active {
 			<div class="inline" style="
 					width:33%; margin-left: 10%; margin-top: 15vh">
 				<!--<img src="static/img/STRONA2_photo_team.png" alt="who are we" style="width: 100%;"/>-->
-					<video poster="staic/img/video.png" id="bgvid" playsinline autoplay muted loop style="width: 100%; margin-top: 5vh">
+					<video poster="static/img/video.png" id="bgvid" playsinline autoplay muted loop style="width: 100%; margin-top: 5vh">
   			<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 					<source src="static/video/video.webm" type="video/webm">
 					<source src="static/video/video.mp4" type="video/mp4">
@@ -464,7 +464,7 @@ a:active {
   	return check;
 	};
 
-	if (window.mobilecheck()) {
+	if (window.mobileAndTabletcheck()) {
 		fullpage.initialize('#fullpage-mobile', {
 			anchors: ['firstPage', 'secondPage', '3rdPage'],
 			menu: '#menu',
