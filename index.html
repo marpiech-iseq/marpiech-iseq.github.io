@@ -173,6 +173,18 @@
 			width: 400px;
 			height: 70%;
 		}
+
+		#mailform-mobile {
+			/*margin: 30px;*/
+			/*margin: 30vh 10vw 30vh 10vw;*/
+			padding: 20px 50px 20px 50px;
+			padding: 30vh 10vw 30vh 10vw;
+			background-color: transparent;
+			width:80%;
+			width: 80vw;
+			height: 40vh;
+		}
+
 		.code {
 			font-family: 'Source Code Pro', sans-serif;
 		}
@@ -282,7 +294,9 @@ a:active {
 </head>
 <body>
 
-<div id="fullpage">
+<div id="fullpage"></div>
+
+<div id="normal" style="visibility: hidden;">
 	<div class="section " id="section0">
 		<div class="content">
 
@@ -438,21 +452,79 @@ a:active {
 	</div>
 </div>
 
-<div id="fullpage-mobile">
-	<div class="section " id="sectionm0">
-		<div class="content">
-			sekcja 0 mobile
+<div id="mobile" style="visibility: hidden;">
+	<div class="section" id="section0">
+		<div id="catchphrase">
+			<h2 class="white">Decipher Your<br/>
+			<b>DNA Puzzle</b></h2><br/>
+			<h2 class="white">Boost Your <b>Fitness</b><br/></h2>
+			<h2 class="white code">■</h2>
 		</div>
 	</div>
-	<div class="section " id="sectionm1">
-		<div class="content">
-			sekcja 1 mobile
+	<div class="section" id="section1">
+		<div id="mailform-mobile" class="alpha50">
+			<img border="0" alt="mytraits" src="static/img/STRONA2_logo.png" width="80%"/>
+			<div id="mc_embed_signup" style="
+					background:white;">
+				<form action="http://mytraits.us16.list-manage.com/subscribe/post?u=3f722b407e87ca9959e39f1f4&amp;id=ce8630f10a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div id="mc_embed_signup_scroll">
+				<h3 class="graphite" style="font-size: 1.7em; font-size: 2.5vh; line-height: 1.9em; line-height: 2.7vh; padding-top: 5vh; padding-left 3vh; padding-right: 3vh">Send me an e-mail about MyTraits Sport launch</h3>
+			<div class="mc-field-group">
+				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your e-mail address" style="
+				border-radius:24px;
+				border-color: #ff5f36;
+				border-style:solid;
+				border-width: 2px;
+				padding: 4px 10px 4px 10px;
+				font-size:24px;
+				color: #ff5f36;
+				width: 85%;
+				margin-top: 20px;
+				margin-bottom: 20px;"/>
+			</div>
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3f722b407e87ca9959e39f1f4_ce8630f10a" tabindex="-1" value=""></div>
+
+						<div><input type="image" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" src="static/img/STRONA2_subscribe.png" alt="Submit" style="
+							color: #ccc; background: white; width: 40%; border: 0px; float: right; margin-right: 50px;"></div>
+
+					</div>
+			</form>
+			</div>
+			<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHDAY';ftypes[3]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+			<!--End mc_embed_signup-->
+
 		</div>
 	</div>
-	<div class="section " id="sectionm2">
-		<div class="content">
-			sekcja 2 mobile
+	<div class="section">
+		<div style="
+			width:80%; margin: 10%; padding-top: 10%;">
+			<span style="font-size: 4em; font-size: 5vh; color: #666;">Who are we?<br/><h2 class="code" style="color: #ff5f36;">■</h2></span>
+			<p style="font-size: 1.3em; font-size: 1.7vh; color: #aaa;">MyTraits Sport was backed by Intelliseq, a genome informatics company. We are an interdisciplinary team of experts in genomics, molecular biology, bioinformatics, and software development. On a daily basis, we provide technology for genome interpretation. Our focus is on development of novel algorithms and tools devoted to interpretation of human DNA sequence. We are fascinated with pharmacogenomics and transcriptomics. The future of our solutions is heading in the direction of AI based mobile applications able to predict personalized risk and support treatment decisions. For more information visit <a href="http://www.intelliseq.pl" style="font-style: normal; color: #ff5f36;">www.inteliseq.pl</a> or connect via <a href="https://twitter.com/intelliseq" style="font-style: normal; color: #ff5f36;">Twitter</a></p>
+			<img src="static/img/STRONA2_photo_team.png" alt="who are we" style="width: 70%; display:block;
+  margin-left:auto;
+  margin-right:auto;"/>
 		</div>
+	</div>
+	<div class="section">
+
+		<div style="
+	 		padding: 10%">
+	 	<span style="font-size: 5vh; color: #666;">About <b>my</b>traits <span style="font-size: 5.6vh; font-family: 'Philosopher'; font-style: normal; font-weight: 700; color: #ff5f36;">sport</span><br/><h2 class="code" style="color: #ff5f36;">■</h2></span>
+	 	<p style="font-size: 2vh; color: #aaa;">Get to know the pieces of your DNA puzzle involved in your athletic ability and Body Mass Index. Discover your genetic predispositions and what it might mean for different sport activities. MyTraits Sport is an iOS mobile application designed to make genome analysis become more understandable and user-friendly. It’s reliable. It’s simple. It’s fun. What you receive is a set of cards packed with personalized content reachable with just a single swipe or tap.
+	 	<br />Learn more at <a href="http://www.helix.com" style="font-style: normal; color: #ff5f36;">www.helix.com</a></p>
+
+	 	<!--<img src="static/img/STRONA2_photo_team.png" alt="who are we" style="width: 100%;"/>-->
+	 		<video poster="static/img/video.png" id="bgvid" playsinline autoplay muted loop style="width: 100%; margin-top: 5vh">
+	 	<!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+	 		<source src="static/video/video.webm" type="video/webm">
+	 		<source src="static/video/video.mp4" type="video/mp4">
+	 		</video>
+	 </div>
+
 	</div>
 </div>
 
@@ -465,13 +537,19 @@ a:active {
 	};
 
 	if (window.mobileAndTabletcheck()) {
-		fullpage.initialize('#fullpage-mobile', {
-			anchors: ['firstPage', 'secondPage', '3rdPage'],
+		console.log("check")
+		parent = document.querySelector('#fullpage');
+		mobile = document.querySelector('#mobile');
+		parent.innerHTML = mobile.innerHTML;
+		fullpage.initialize('#fullpage', {
+			anchors: ['1stPage','2ndPage','3rdPage','4thPage'],
 			menu: '#menu',
 			css3:true
 		});
 	} else {
-
+		parent = document.querySelector('#fullpage');
+		mobile = document.querySelector('#normal');
+		parent.innerHTML = mobile.innerHTML;
 		fullpage.initialize('#fullpage', {
 			anchors: ['firstPage', 'secondPage', '3rdPage','4thPage'],
 			menu: '#menu',
