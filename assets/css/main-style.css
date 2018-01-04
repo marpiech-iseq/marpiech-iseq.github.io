@@ -9855,12 +9855,12 @@ a.back-arrow:hover {
   background-position: center; }
 
 input.form {
-  border: 2.5px solid #ff5f36;
-  color: #ff5f36;
-  border-radius: 30px;
+  border: 2.5px solid #ff5f36 !important;
+  color: #ff5f36 !important;
+  border-radius: 30px !important;
   height: 55px;
-  padding: 0 5% 0 5%;
-  width: 100%;
+  padding: 0 5% 0 5% !important;
+  width: 100% !important;
   font-size: 1.5rem;
   margin-top: 15px; }
   input.form:focus {
@@ -9874,7 +9874,7 @@ input.form {
 .group {
   margin-top: 20px; }
 
-button.sub {
+input.button.sub {
   border-radius: 30px 0 0 30px;
   background-color: #ff5f36;
   color: white;
@@ -9883,11 +9883,18 @@ button.sub {
   cursor: pointer;
   font-size: 1.5rem;
   padding: 0 15px 0 15px; }
-  button.sub:focus {
+  input.button.sub:focus {
     outline: none; }
-  button.sub:hover {
+  input.button.sub:hover {
     background-color: white;
     color: #ff5f36; }
+
+.mce_inline_error {
+  color: #ff5f36 !important;
+  background-color: transparent !important; }
+
+#mce-success-response {
+  color: #ff5f36 !important; }
 
 .white-bg-1 {
   background-image: url("../img/social/fb-1.png") !important; }
@@ -10019,13 +10026,6 @@ button.sub {
   background-position: center;
   cursor: pointer; }
 
-.turn-on-overlay {
-  position: absolute;
-  margin: -450px 45vw;
-  cursor: pointer;
-  color: #fff;
-  font-size: 40px; }
-
 #screen-5 {
   background-image: url("../img/how-we-work.png");
   background-size: 80%;
@@ -10103,7 +10103,7 @@ button.sub {
   width: 100%; }
 
 .helix-btn-2 {
-  height: 65px;
+  height: 71px;
   width: 245px;
   background-image: url("../img/helix-btn-2.svg");
   background-size: cover;
@@ -10146,7 +10146,8 @@ button.sub {
   background-image: url("../img/helix.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 70px;
+  background-size: 100%;
+  height: 65px;
   width: 150px;
   border: 2px solid #ff5f36;
   border-radius: 50px;
